@@ -1,0 +1,15 @@
+{
+  "homepage": "https://www.github.com/FlamerMC/inetcore",
+  "1.21": {
+    "1.0": "https://github.com/FlamerMC/inetcore",
+    // List all versions of your mod for the given Minecraft version, along with their changelogs
+    ...
+  },
+  "promos": {
+    "1.21.1-latest": "1.0",
+    // Declare the latest "bleeding-edge" version of your mod for the given Minecraft version
+    "1.21-recommended": "1.0",
+    // Declare the latest "stable" version of your mod for the given Minecraft version
+    ...
+  }
+}
