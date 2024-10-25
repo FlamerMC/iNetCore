@@ -8,8 +8,12 @@
     "customProperties": {},
     "states": [],
     "name": "Phone",
-    "rarity": "COMMON",
-    "creativeTabs": [],
+    "rarity": "EPIC",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

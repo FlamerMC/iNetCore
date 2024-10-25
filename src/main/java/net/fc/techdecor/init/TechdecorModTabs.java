@@ -27,6 +27,11 @@ public class TechdecorModTabs {
 			tabData.accept(TechdecorModItems.IPC_SPAWN_EGG.get());
 			tabData.accept(TechdecorModItems.MONITOR_SPAWN_EGG.get());
 
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+
+			tabData.accept(TechdecorModItems.PHONE.get());
+			tabData.accept(TechdecorModItems.PHABLET.get());
+
 		}
 	}
 }
