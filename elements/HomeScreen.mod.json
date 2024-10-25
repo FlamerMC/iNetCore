@@ -1,0 +1,113 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 165,
+    "height": 235,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "untitled.png",
+          "use1Xscale": false,
+          "x": 131,
+          "y": 2
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cerizon",
+          "text": {
+            "fixedValue": "Cerizon - LTE"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 222,
+          "y": 7
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_kphone",
+          "text": {
+            "fixedValue": "kPhone"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 136,
+          "y": 7
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "[_]",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "HomeButton"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 192,
+          "y": 215
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "solid-color-image.png",
+          "use1Xscale": false,
+          "x": 130,
+          "y": 213
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_24673072002",
+          "image": "2467307-2002.png",
+          "hoveredImage": "2467307-2002.png",
+          "onClick": {
+            "name": "Openwarps"
+          },
+          "x": 145,
+          "y": 32
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Openwarps"
+          },
+          "width": 25,
+          "height": 20,
+          "x": 157,
+          "y": 51
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

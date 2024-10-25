@@ -1,0 +1,109 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 165,
+    "height": 235,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cerizon",
+          "text": {
+            "fixedValue": "Cerizon - LTE"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 222,
+          "y": 7
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_kphone",
+          "text": {
+            "fixedValue": "kPhone"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 136,
+          "y": 7
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "[_]",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "HomeButton"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 192,
+          "y": 215
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "untitled.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 4
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "solid-color-image.png",
+          "use1Xscale": false,
+          "x": 130,
+          "y": 213
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "file1.png",
+          "use1Xscale": true,
+          "x": 180,
+          "y": 55
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_press_to_home_button_to_unlock",
+          "text": {
+            "fixedValue": "Press To Home Button to Unlock"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 138,
+          "y": 200
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
