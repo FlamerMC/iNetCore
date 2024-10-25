@@ -1,3 +1,7 @@
 /give Dev inetcore:phone
 /summon
 /summon inetcore:laptop
+/give @s item_frame[entity_data={id:"minecraft:item_frame",Invisible:1b}]
+/give @s techdecor:phablet
+/give @s techdecor:phone
+/clear

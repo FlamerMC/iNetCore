@@ -8,9 +8,9 @@
       "registry_name": "lock",
       "metadata": {
         "files": [
-          "src/main/java/net/fc/inetcore/client/gui/LockScreen.java",
-          "src/main/java/net/fc/inetcore/world/inventory/LockMenu.java",
-          "src/main/java/net/fc/inetcore/network/LockButtonMessage.java"
+          "src/main/java/net/fc/techdecor/network/LockButtonMessage.java",
+          "src/main/java/net/fc/techdecor/world/inventory/LockMenu.java",
+          "src/main/java/net/fc/techdecor/client/gui/LockScreen.java"
         ]
       },
       "path": "~/iPhone"
@@ -23,8 +23,8 @@
       "registry_name": "phone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/inetcore/models/item/phone.json",
-          "src/main/java/net/fc/inetcore/item/PhoneItem.java"
+          "src/main/resources/assets/techdecor/models/item/phone.json",
+          "src/main/java/net/fc/techdecor/item/PhoneItem.java"
         ]
       },
       "path": "~/iPhone"
@@ -37,7 +37,7 @@
       "registry_name": "open_phone",
       "metadata": {
         "files": [
-          "src/main/java/net/fc/inetcore/network/OpenPhoneMessage.java"
+          "src/main/java/net/fc/techdecor/network/OpenPhoneMessage.java"
         ]
       },
       "path": "~/iPhone"
@@ -50,7 +50,7 @@
       "registry_name": "open_phone_procedure",
       "metadata": {
         "files": [
-          "src/main/java/net/fc/inetcore/procedures/OpenPhoneProcedureProcedure.java"
+          "src/main/java/net/fc/techdecor/procedures/OpenPhoneProcedureProcedure.java"
         ],
         "dependencies": [
           {
@@ -85,9 +85,9 @@
       "registry_name": "home_screen",
       "metadata": {
         "files": [
-          "src/main/java/net/fc/inetcore/world/inventory/HomeScreenMenu.java",
-          "src/main/java/net/fc/inetcore/network/HomeScreenButtonMessage.java",
-          "src/main/java/net/fc/inetcore/client/gui/HomeScreenScreen.java"
+          "src/main/java/net/fc/techdecor/network/HomeScreenButtonMessage.java",
+          "src/main/java/net/fc/techdecor/world/inventory/HomeScreenMenu.java",
+          "src/main/java/net/fc/techdecor/client/gui/HomeScreenScreen.java"
         ]
       },
       "path": "~/iPhone"
@@ -100,7 +100,7 @@
       "registry_name": "home_button",
       "metadata": {
         "files": [
-          "src/main/java/net/fc/inetcore/procedures/HomeButtonProcedure.java"
+          "src/main/java/net/fc/techdecor/procedures/HomeButtonProcedure.java"
         ],
         "dependencies": [
           {
@@ -135,9 +135,9 @@
       "registry_name": "warps",
       "metadata": {
         "files": [
-          "src/main/java/net/fc/inetcore/network/WarpsButtonMessage.java",
-          "src/main/java/net/fc/inetcore/world/inventory/WarpsMenu.java",
-          "src/main/java/net/fc/inetcore/client/gui/WarpsScreen.java"
+          "src/main/java/net/fc/techdecor/world/inventory/WarpsMenu.java",
+          "src/main/java/net/fc/techdecor/client/gui/WarpsScreen.java",
+          "src/main/java/net/fc/techdecor/network/WarpsButtonMessage.java"
         ]
       },
       "path": "~/iPhone"
@@ -150,7 +150,7 @@
       "registry_name": "openwarps",
       "metadata": {
         "files": [
-          "src/main/java/net/fc/inetcore/procedures/OpenwarpsProcedure.java"
+          "src/main/java/net/fc/techdecor/procedures/OpenwarpsProcedure.java"
         ],
         "dependencies": [
           {
@@ -185,9 +185,9 @@
       "registry_name": "laptop",
       "metadata": {
         "files": [
-          "src/main/java/net/fc/inetcore/entity/LaptopEntity.java",
-          "src/main/java/net/fc/inetcore/client/renderer/LaptopRenderer.java",
-          "src/main/resources/assets/inetcore/models/item/laptop_spawn_egg.json"
+          "src/main/java/net/fc/techdecor/entity/LaptopEntity.java",
+          "src/main/resources/assets/techdecor/models/item/laptop_spawn_egg.json",
+          "src/main/java/net/fc/techdecor/client/renderer/LaptopRenderer.java"
         ]
       },
       "path": "~/Computers"
@@ -200,8 +200,8 @@
       "registry_name": "phablet",
       "metadata": {
         "files": [
-          "src/main/java/net/fc/inetcore/item/PhabletItem.java",
-          "src/main/resources/assets/inetcore/models/item/phablet.json"
+          "src/main/resources/assets/techdecor/models/item/phablet.json",
+          "src/main/java/net/fc/techdecor/item/PhabletItem.java"
         ]
       },
       "path": "~/itab"
@@ -214,7 +214,7 @@
       "registry_name": "open_tab",
       "metadata": {
         "files": [
-          "src/main/java/net/fc/inetcore/procedures/OpenTabProcedure.java"
+          "src/main/java/net/fc/techdecor/procedures/OpenTabProcedure.java"
         ],
         "dependencies": [
           {
@@ -249,7 +249,7 @@
       "registry_name": "open_tabkey",
       "metadata": {
         "files": [
-          "src/main/java/net/fc/inetcore/network/OpenTabkeyMessage.java"
+          "src/main/java/net/fc/techdecor/network/OpenTabkeyMessage.java"
         ]
       },
       "path": "~/itab"
@@ -261,28 +261,49 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "gui.inetcore.lock.label_cerizon": "Cerizon - LTE",
+      "gui.techdecor.warps.label_warps_app": "WARPS APP",
+      "gui.techdecor.warps.label_cerizon": "Cerizon - LTE",
       "gui.inetcore.lock.label_press_to_home_button_to_unlock": "Press To Home Button to Unlock",
-      "gui.inetcore.home_screen.button_empty": "[_]",
-      "item.inetcore.phone": "Phone",
       "item.inetcore.phablet": "Phablet",
-      "gui.inetcore.home_screen.label_cerizon": "Cerizon - LTE",
-      "gui.inetcore.warps.label_cerizon": "Cerizon - LTE",
+      "item.techdecor.laptop_spawn_egg": "Laptop Spawn Egg",
+      "gui.techdecor.home_screen.button_empty1": "",
+      "gui.techdecor.lock.label_kphone": "kPhone",
+      "gui.techdecor.home_screen.button_empty": "[_]",
       "gui.inetcore.warps.button_empty1": "",
-      "gui.inetcore.warps.button_agora": "Agora",
-      "gui.inetcore.lock.label_kphone": "kPhone",
-      "item.inetcore.laptop_spawn_egg": "Laptop Spawn Egg",
+      "item.techdecor.phone": "Phone",
+      "gui.techdecor.home_screen.label_cerizon": "Cerizon - LTE",
       "gui.inetcore.home_screen.button_empty1": "",
-      "entity.inetcore.laptop": "Laptop",
-      "gui.inetcore.lock.button_empty": "[_]",
-      "gui.inetcore.warps.button_dealership_rd": "Dealership RD",
       "key.inetcore.open_tabkey": "Open Tabkey",
-      "gui.inetcore.warps.label_kphone": "kPhone",
-      "gui.inetcore.warps.label_warps_app": "WARPS APP",
+      "gui.techdecor.home_screen.label_kphone": "kPhone",
       "gui.inetcore.home_screen.label_kphone": "kPhone",
       "key.inetcore.open_phone": "Open Phone/tab",
+      "item.techdecor.phablet": "Phablet",
+      "key.techdecor.open_phone": "Open Phone/tab",
       "gui.inetcore.warps.button_empty": "[_]",
-      "gui.inetcore.warps.button_airport": "AirPort"
+      "gui.inetcore.lock.label_cerizon": "Cerizon - LTE",
+      "gui.techdecor.warps.label_kphone": "kPhone",
+      "gui.inetcore.home_screen.button_empty": "[_]",
+      "item.inetcore.phone": "Phone",
+      "gui.inetcore.home_screen.label_cerizon": "Cerizon - LTE",
+      "gui.techdecor.lock.label_press_to_home_button_to_unlock": "Press To Home Button to Unlock",
+      "gui.inetcore.warps.label_cerizon": "Cerizon - LTE",
+      "gui.techdecor.warps.button_dealership_rd": "Dealership RD",
+      "gui.techdecor.lock.label_cerizon": "Cerizon - LTE",
+      "key.techdecor.open_tabkey": "Open Tabkey",
+      "gui.inetcore.warps.button_agora": "Agora",
+      "gui.techdecor.lock.button_empty": "[_]",
+      "gui.inetcore.lock.label_kphone": "kPhone",
+      "gui.techdecor.warps.button_agora": "Agora",
+      "item.inetcore.laptop_spawn_egg": "Laptop Spawn Egg",
+      "entity.inetcore.laptop": "Laptop",
+      "gui.techdecor.warps.button_airport": "AirPort",
+      "gui.inetcore.warps.button_dealership_rd": "Dealership RD",
+      "gui.inetcore.lock.button_empty": "[_]",
+      "gui.inetcore.warps.label_kphone": "kPhone",
+      "gui.inetcore.warps.label_warps_app": "WARPS APP",
+      "entity.techdecor.laptop": "Laptop",
+      "gui.inetcore.warps.button_airport": "AirPort",
+      "gui.techdecor.warps.button_empty": "[_]"
     }
   },
   "foldersRoot": {
@@ -303,11 +324,11 @@
     ]
   },
   "workspaceSettings": {
-    "modid": "inetcore",
-    "modName": "inetcore",
+    "modid": "techdecor",
+    "modName": "TechDecor",
     "version": "1.0.0",
     "author": "FlamerMC",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://github.com/FlamerMC/inetcore",
     "license": "Not specified",
     "serverSideOnly": false,
     "updateURL": "https://github.com/FlamerMC/inetcore/blob/main/update.json",
@@ -316,8 +337,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.fc.inetcore"
+    "credits": "Mod that adds Tech to the game",
+    "modElementsPackage": "net.fc.techdecor"
   },
   "mcreatorVersion": 202400342716
 }
