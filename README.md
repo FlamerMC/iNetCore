@@ -1,4 +1,4 @@
-[alt text](https://github.com/FlamerMC/techdecor/blob/main/title.png)
+[image not showing :(](https://github.com/FlamerMC/techdecor/blob/main/title.png)
 
 A mod that adds semi-functional tech to the game
 ## Credits
