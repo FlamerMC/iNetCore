@@ -1,4 +1,5 @@
-# TECHDECOR MOD
+[alt text](https://github.com/FlamerMC/techdecor/blob/main/title.png)
+
 A mod that adds semi-functional tech to the game
 ## Credits
 - Developer: FlamerMC
